@@ -1,0 +1,346 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    h3 {
+        font-size: 33px;
+        strong {
+          font-size: 38px;
+        }
+      }
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 35px;
+    span {
+      font-size: 40px;
+    }
+  }
+  h2 {
+    font-size: 40px;
+    span {
+      font-size: 45px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    strong {
+      font-size: 35px;
+    }
+  }
+
+  p {
+    &.ex {
+      font-size: 25px;
+    }
+    &.big {
+      font-size: 22px;
+    }
+    &.med {
+      font-size: 18px;
+    }
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  .main {
+    padding-top: 120.81px;
+  }
+  @include header-xlg-xxlg;
+  @include nav-xlg-xxlg;
+  @include hero-xlg-xxlg;
+  @include course-xlg-xxlg;
+  @include intro-xlg-xxlg;
+  @include reviews-xlg-xxlg;
+  @include info-xlg-xxlg;
+
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h2 {
+    font-size: 35px;
+    span {
+      font-size: 40px;
+    }
+  }
+  h3 {
+    font-size: 28px;
+    strong {
+      font-size: 33px;
+    }
+  }
+  .main {
+    padding-top: 110.7px;
+  }
+  .video {
+    &__play {
+      span {
+        width: 100px;
+        height: 100px;
+        border-width: 7px;
+      }
+    }
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include benefits-lg-xlg;
+  @include info-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 30px;
+    span {
+      font-size: 35px;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    span {
+      font-size: 35px;
+    }
+  }
+  h3 {
+    font-size: 25px;
+    strong {
+      font-size: 30px;
+    }
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    &.ex {
+      font-size: 22px;
+    }
+    &.big {
+      font-size: 20px;
+    }
+  }
+  .button {
+    &.primary {
+        font-size: 20px;
+        padding: 7px 26px;
+        border-radius: 7px;
+        &::after {
+            border-radius: 7px;
+        }
+        &::before {
+            border-radius: 7px;
+        }
+        &.sm {
+            font-size: 18px;
+            padding: 6px 20px;
+        }
+        &.second {
+            font-size: 18px;
+            padding: 7px;
+        }
+    }
+  }
+  @include course-md-lg;
+  @include hero-md-lg;
+  @include intro-md-lg;
+  @include benefits-md-lg;
+  @include reviews-md-lg;
+  @include info-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 25px;
+    span {
+      font-size: 30px;
+    }
+  }
+  h3 {
+    font-size: 22px;
+    strong {
+      font-size: 25px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    letter-spacing: 0.3em;
+  }
+  .cirlce {
+    &__wrapper {
+        display: none;
+    }
+  }
+  @include hero-sm-md;
+  @include benefits-sm-md;
+  @include join-sm-md;
+  @include info-sm-md;
+  @include footer-sm-md;
+
+}
+// 650px
+@include sm-md-extra {
+  h1 {
+    font-size: 25px;
+    span {
+      font-size: 28px;
+    }
+  }
+  h2 {
+    font-size: 20px;
+    span {
+      font-size: 25px;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    strong {
+      font-size: 23px;
+    }
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    &.ex {
+      font-size: 20px;
+    }
+    &.big {
+      font-size: 18px;
+    }
+    &.med {
+      font-size: 16px;
+    }
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  body {
+    font-size: 15px;
+  }
+  .video {
+    border-width: 2px;
+    border-radius: 12px;
+    &__play {
+      span {
+        width: 60px;
+        height: 60px;
+        border-width: 4px;
+      }
+    }
+  }
+  @include hero-sm-md-extra;
+  @include course-sm-md-extra;
+  @include intro-sm-md-extra;
+  @include reviews-sm-md-extra;
+  @include info-sm-md-extra;
+
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 17px;
+    span {
+      font-size: 19px;
+    }
+  }
+  h6 {
+    font-size: 16px;
+    letter-spacing: 0.15em;
+  }
+  p {
+    &.ex {
+      font-size: 17px;
+    }
+    &.big {
+      font-size: 15px;
+    }
+    &.med {
+      font-size: 14px;
+    }
+    &.sm {
+      font-size: 13px;
+    }
+  }
+  body {
+    font-size: 14px;
+  }
+  .button {
+    &.primary {
+        font-size: 16px;
+        padding: 7px 20px;
+        border-radius: 5px;
+        &::after {
+            border-radius: 5px;
+        }
+        &::before {
+            border-radius: 5px;
+        }
+        &.sm {
+            font-size: 15px;
+            padding: 7px 15px;
+        }
+        &.second {
+            font-size: 15px;
+            padding: 7px;
+        }
+    }
+  }
+  .input {
+    border-radius: 4px;
+
+    input, textarea {
+        padding: 7px 10px;
+        border-radius: 4px;
+        font-size: 11px;
+    }
+  }
+  .main {
+    padding-top: 90.61px;
+  }
+  .anchor {
+    top: -60px;
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include course-xsm-sm;
+  @include intro-xsm-sm;
+  @include benefits-xsm-sm;
+  @include reviews-xsm-sm;
+  @include join-xsm-sm;
+  @include info-xsm-sm;
+  @include footer-xsm-sm;
+
+}
+// 440px
+@include xxsm-xsm {
+    h3 {
+        font-size: 18px;
+        strong {
+          font-size: 20px;
+        }
+      }
+  @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
